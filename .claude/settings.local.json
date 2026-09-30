@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(curl -s -X POST https://desertia-backend.onrender.com/api/v1/auth/login -H \"Content-Type: application/json\" -d '{\"email\":\"nonexistent@test.com\",\"password\":\"wrongpass\"}')",
+      "Bash(Get-ChildItem -Path \"D:\\\\projects\\\\desrtia\\\\back\" -Recurse -File -Name)",
+      "Bash(Select-Object -First 50)",
+      "Bash(Get-ChildItem -Path \"D:\\\\projects\\\\desrtia\\\\front\\\\travel-app\\\\src\" -Recurse -File -Filter \"*.jsx\" -o -Filter \"*.js\")",
+      "Bash(Select-Object FullName)",
+      "Bash(Sort-Object FullName)",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/deserts?limit=1\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/hotels?limit=1\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/activities?limit=1\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/deserts/white-desert\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/hotels/adrere-amellal\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/activities\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/deserts/550e8400-e29b-41d4-a716-446655440001\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/explore\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/hidden-gems?limit=1\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/trips?limit=1\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/deserts?is_featured=true&limit=2\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/hotels?type=camp&limit=2\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/deserts/550e8400-e29b-41d4-a716-446655440001/hotels\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/deserts/550e8400-e29b-41d4-a716-446655440001/activities\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/explore/map\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d['data'][0], indent=2\\)\\)\")",
+      "Bash(curl -s \"https://desertia-backend.onrender.com/api/v1/deserts?region=Sinai&limit=3\")"
+    ]
+  }
+}
